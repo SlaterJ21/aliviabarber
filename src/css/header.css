@@ -1,0 +1,68 @@
+/* Logo */
+
+nav .brand-logo {
+  font-size: 2.5rem;
+  font-family: 'Londrina Outline';
+  padding-left: 2%;
+  grid-column: 2/3;
+}
+
+.logo-wrapper {
+  display: grid;
+  grid-template-columns: 20px 45px 275px;
+  /* margin-top: 8px; */
+}
+
+.title {
+  margin-left: 5%;
+}
+
+@keyframes barberpole {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 0% 730%;
+  }
+}
+
+.barbershop-pole {
+    margin-top: 10px;
+    grid-column: 2/3;
+    margin-left: 50%;
+    /* width: 35px lg;
+    height: 100px; lg */
+    width: 15px;
+    height: 40px;
+    border-radius: 5px;
+    /* margin: 0 0; */
+    background-color: #fff;
+    background-repeat: repeat-y;
+    background-size: 100% 88px;
+    background-position: 0% 0%;
+    /* background-image: repeating-linear-gradient(25deg, #fff, #fff 20px, #0049a6 20px, #0049a6 40px, #fff 40px, #fff 60px, #cc123d 60px, #cc123d 80px); */
+    background-image: repeating-linear-gradient(25deg, #fff, #fff 10px, #0049a6 10px, #0049a6 20px, #fff 20px, #fff 30px, #cc123d 30px, #cc123d 40px);
+    /* animation: barberpole 3s linear infinite; */
+    animation: barberpole 15s linear infinite;
+}
+
+.barbershop-pole:before {
+    grid-column: 3/4;
+    content: '';
+    display: block;
+    box-sizing: border-box;
+    /* width: 35px lg;
+    height: 100px; lg */
+    width: 15px;
+    height: 40px;
+    z-index: 12;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-radius: 5px;
+    /* border-right-width: 10px; */
+    border-right-width: 2px;
+    border-right-color: rgba(120, 120, 120, 0.3);
+    /* border-left-width: 14px; */
+    border-left-width: 4px;
+    border-left-color: rgba(60, 60, 60, 0.3);
+}
