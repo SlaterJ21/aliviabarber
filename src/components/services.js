@@ -8,7 +8,7 @@ class Services extends Component {
         <Col s={1} m={2} l={4}></Col>
         <Col s={10} m={8} l={4}>
         <h4 className="center-align">Services</h4>
-        <p className="center-align info">With over 30 years experience you can expect the best!</p>
+        <p className="center-align info">With over 30 years experience you can expect a quality cut everytime!</p>
           <Table>
             <thead>
               <tr>

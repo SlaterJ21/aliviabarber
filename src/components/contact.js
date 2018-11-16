@@ -9,8 +9,8 @@ class Contact extends Component {
         <Col s={1} m={3} l={4}></Col>
         <Col s={10} m={6} l={4}>
           <h4 className="center-align">Contact</h4>
-          <p className="center-align info">*Walk-ins welcome, with availability*</p>
-          <p className="center-align info">*Call-In appointments prefered.*</p>
+          <p className="center-align info">Walk-ins welcome, with availability. Call-in appointments preferred</p>
+          <p className="center-align info"></p>
           <CardPanel className="lighten-4 white-text center-align">
             <h6><a href="tel: (303) 652-9088">(303) 652-9088</a></h6>
           </CardPanel>
