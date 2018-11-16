@@ -41,7 +41,7 @@ nav .brand-logo {
     background-size: 100% 88px;
     background-position: 0% 0%;
     /* background-image: repeating-linear-gradient(25deg, #fff, #fff 20px, #0049a6 20px, #0049a6 40px, #fff 40px, #fff 60px, #cc123d 60px, #cc123d 80px); */
-    background-image: repeating-linear-gradient(25deg, #fff, #fff 10px, #0049a6 10px, #0049a6 20px, #fff 20px, #fff 30px, #cc123d 30px, #cc123d 40px);
+    background-image: repeating-linear-gradient(-25deg, #fff, #fff 10px, #0049a6 10px, #0049a6 20px, #fff 20px, #fff 30px, #cc123d 30px, #cc123d 40px);
     /* animation: barberpole 3s linear infinite; */
     animation: barberpole 15s linear infinite;
 }
