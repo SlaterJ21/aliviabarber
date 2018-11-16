@@ -19,11 +19,11 @@ class Services extends Component {
             <tbody>
               <tr>
                 <td>Mens Haircut</td>
-                <td>$20</td>
+                <td>$22</td>
               </tr>
               <tr>
                 <td>Womens Haircut</td>
-                <td>$20</td>
+                <td>$25</td>
               </tr>
               <tr>
                 <td>Childrens Haircut</td>
